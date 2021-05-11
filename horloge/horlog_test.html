@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>IDSD HORLOGE</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="horlog_style_test.css">
+  </head>
+  <body>
+    <svg id="horloge" viewBox="0 0 100 100" width="500" height="500">
+      <circle id="face" cx="50" cy="50" r="45"/>
+      <g id="lines">
+        <line x1='50.00' y1='5.000' x2='50.00' y2='10.00'/>
+        <line x1='95.00' y1='50.00' x2='90.00' y2='50.00'/>
+        <line x1='50.00' y1='95.00' x2='50.00' y2='90.00'/>
+        <line x1='5.000' y1='50.00' x2='10.00' y2='50.00'/>
+      </g>
+      <g id="numbers">
+        <text x="50" y="18">XII</text>
+        <text x="85" y="53">III</text>
+        <text x="50" y="88">VI</text>
+        <text x="15" y="53">IX</text>
+      </g>
+      <g id="aigs">
+        <line id="aigH" transform="rotate(0,50,50)" x1="50" y1="50" x2="50" y2="24"/>
+        <line id="aigM" transform="rotate(0,50,50)" x1="50" y1="50" x2="50" y2="20"/>
+        <line id="aigS" x1="50" y1="50" x2="50" y2="16"/>
+        <circle id="center" cx="50" cy="50" r="2"/>
+      </g>
+    </svg>
+  </body>
+  <script src="script.js"></script>
+</html>

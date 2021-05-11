@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    padding: 20px;
+  }
+  #horloge {
+    stroke: rgb(173, 162, 126);
+    stroke-linecap: round;
+    border-radius: 50%;
+    border: 3px solid rgb(19, 19, 26);
+    display: inline-block;
+    fill: white;
+    background-color: brown;
+  }
+  #face{ 
+    stroke-width: 3px;
+
+  }
+  
+  #lines { 
+    stroke-width: 2px; 
+  }
+  #aigH {
+    stroke-width: 4px;
+  }
+  #aigM {
+    stroke-width: 3px;
+  }
+  #aigS {
+    stroke-width: 1px;
+  }
+  #numbers {
+    font-family: sans-serif; 
+    font-size: 7pt; 
+    font-weight: bold;
+    text-anchor: middle; 
+    
+  }
+ 
